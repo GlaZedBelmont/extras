@@ -170,136 +170,56 @@
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
-	"Universal-Manger Release 3DSX": [
-		{
-			"type": "downloadRelease",
-			"repo": "Universal-Team/Universal-Manager",
-			"file": "Universal-Manager.3dsx",
-			"output": "/3ds/Universal-Manager.3dsx",
-			"message": "Downloading the Universal-Manager 3DSX..."
-		}
-	],
-	"Universal-Manager Release CIA": [
-		{
-			"type": "downloadRelease",
-			"repo": "Universal-Team/Universal-Manager",
-			"file": "Universal-Manager.cia",
-			"output": "/Universal-Manager.cia",
-			"message": "Downloading the Universal-Manager CIA..."
-		},
-		{
-			"type": "installCia",
-			"file": "/Universal-Manager.cia",
-			"message": "Installing the Universal-Manager CIA..."
-		},
-		{
-			"type": "deleteFile",
-			"file": "/Universal-Manager.cia",
-			"message": "Deleting the downloaded CIA file..."
-		}
-	],
-	"Universal-Updater Nightly 3DSX": [
+	"Snes9x Release 3DSX": [
 		{
 			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.3dsx",
-			"output": "/3ds/Universal-Updater.3dsx",
-			"message": "Downloading the Universal-Updater 3DSX..."
+			"file": "https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.3/snes9x_3ds.3dsx",
+			"output": "/3ds/snes9x_3ds.3dsx",
+			"message": "Downloading the latest Snes9x 3DSX..."
 		}
 	],
-	"Universal-Updater Nightly CIA": [
+	"Snes9x Release CIA": [
 		{
 			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia",
-			"output": "/Universal-Updater.cia",
-			"message": "Downloading the Universal-Updater CIA..."
+			"file": "https://tinydb.eiphax.tech/dl/170/latest/snes9x_3ds.cia",
+			"output": "/snes9x_3ds.cia",
+			"message": "Downloading the latest Snes9x CIA..."
 		},
 		{
 			"type": "installCia",
-			"file": "/Universal-Updater.cia",
-			"message": "Installing the Universal-Updater CIA..."
+			"file": "/snes9x_3ds.cia",
+			"message": "Installing the Snes9x CIA..."
 		},
 		{
 			"type": "deleteFile",
-			"file": "/Universal-Updater.cia",
+			"file": "/snes9x_3ds.cia",
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
-	"Universal-Updater Release 3DSX": [
-		{
-			"type": "downloadRelease",
-			"repo": "Universal-Team/Universal-Updater",
-			"file": "Universal-Updater.3dsx",
-			"output": "/3ds/Universal-Updater.3dsx",
-			"message": "Downloading the Universal-Updater 3DSX..."
-		}
-	],
-	"Universal-Updater Release CIA": [
-		{
-			"type": "downloadRelease",
-			"repo": "Universal-Team/Universal-Updater",
-			"file": "Universal-Updater.cia",
-			"output": "/Universal-Updater.cia",
-			"message": "Downloading the Universal-Updater CIA..."
-		},
-		{
-			"type": "installCia",
-			"file": "/Universal-Updater.cia",
-			"message": "Installing the Universal-Updater CIA..."
-		},
-		{
-			"type": "deleteFile",
-			"file": "/Universal-Updater.cia",
-			"message": "Deleting the downloaded CIA file..."
-		}
-	],
-	"pkmn-chest Nightly CIA": [
+	"VirtuaNES Release 3DSX": [
 		{
 			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia",
-			"output": "/pkmn-chest.cia",
-			"message": "Downloading the pkmn-chest CIA..."
-		},
+			"file": "https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.4/virtuanes_3ds.3dsx",
+			"output": "/3ds/virtuanes_3ds.3dsx",
+			"message": "Downloading the VirtuaNES 3DSX..."
+		}
+	],
+	"VirtuaNES Release CIA": [
 		{
 			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds",
-			"output": "/_nds/pkmn-chest/pkmn-chest.nds",
-			"message": "Downloading the pkmn-chest nds file..."
+			"file": "https://tinydb.eiphax.tech/dl/201/latest/virtuanes_3ds.cia",
+			"output": "/virtuanes_3ds.cia",
+			"message": "Downloading the latest VirtuaNES CIA..."
 		},
 		{
 			"type": "installCia",
-			"file": "/pkmn-chest.cia",
-			"message": "Installing the pkmn-chest CIA..."
+			"file": "/virtuanes_3ds.cia",
+			"message": "Installing the VirtuaNES CIA..."
 		},
 		{
 			"type": "deleteFile",
-			"file": "/pkmn-chest.cia",
+			"file": "/virtuanes_3ds.cia",
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
-	"pkmn-chest Release CIA": [
-		{
-			"type": "downloadRelease",
-			"repo": "Universal-Team/pkmn-chest",
-			"file": "pkmn-chest.cia",
-			"output": "/pkmn-chest.cia",
-			"message": "Downloading the pkmn-chest CIA..."
-		},
-		{
-			"type": "downloadRelease",
-			"repo": "Universal-Team/pkmn-chest",
-			"file": "pkmn-chest.nds",
-			"output": "/_nds/pkmn-chest/pkmn-chest.nds",
-			"message": "Downloading the pkmn-chest nds file..."
-		},
-		{
-			"type": "installCia",
-			"file": "/pkmn-chest.cia",
-			"message": "Installing the pkmn-chest CIA..."
-		},
-		{
-			"type": "deleteFile",
-			"file": "/pkmn-chest.cia",
-			"message": "Deleting the downloaded CIA file..."
-		}
-	]
 }
