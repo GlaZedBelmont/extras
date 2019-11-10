@@ -13,13 +13,26 @@
 		"version": 2,
 		"revision": 2
 	},
-	"BetterDex Nightly 3DSX": [
+	"Gameyob 3DS 3DSX": [
 		{
 			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/BetterDex/BetterDex.3dsx",
-			"output": "/3ds/BetterDex.3dsx",
-			"message": "Downloading the BetterDex 3DSX..."
+			"file": "https://github.com/Steveice10/GameYob/releases/download/1.0.8/GameYob.zip",
+			"output": "/3ds/GameYob.zip",
+			"message": "Downloading the GameYob Zip..."
+		},
+		{
+            "type": "extractFile",
+            "file": "/3ds/GameYob.zip",
+            "input": "GameYob/3ds-arm/3ds/GameYob/",
+            "output": "/3ds/GameYob.3dsx",
+			"message": "Extract GameYob..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/3ds/GameYob.zip"
 		}
+		
+		
 	],
 	"BetterDex Nightly CIA": [
 		{
