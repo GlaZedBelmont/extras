@@ -25,7 +25,7 @@
             "file": "/3ds/GameYob.zip",
             "input": "GameYob/3ds-arm/3ds/GameYob/",
             "output": "/3ds/",
-			"message": "Extract GameYob..."
+			"message": "Extracting GameYob..."
 		},
 		{
 			"type": "deleteFile",
@@ -33,57 +33,58 @@
 		}
 		
 	],
-	"BetterDex Nightly CIA": [
+	"GameYob 3DS CIA": [
 		{
 			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/BetterDex/BetterDex.cia",
-			"output": "/BetterDex.cia",
-			"message": "Downloading the BetterDex CIA..."
+			"file": "https://github.com/Steveice10/GameYob/releases/download/1.0.8/GameYob.cia",
+			"output": "/GameYob.cia",
+			"message": "Downloading the GameYob (3DS) CIA..."
 		},
 		{
 			"type": "installCia",
-			"file": "/BetterDex.cia",
-			"message": "Installing the BetterDex CIA..."
+			"file": "/GameYob.cia",
+			"message": "Installing the GameYob (3DS) CIA..."
 		},
 		{
 			"type": "deleteFile",
-			"file": "/BetterDex.cia",
+			"file": "/GameYob.cia",
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
-	"LeafEdit Nightly 3DSX": [
+	"GameYob (DSi) CIA": [
 		{
 			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx",
-			"output": "/3ds/LeafEdit.3dsx",
-			"message": "Downloading the LeafEdit 3DSX..."
-		}
-	],
-	"LeafEdit Nightly CIA": [
-		{
-			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia",
-			"output": "/LeafEdit.cia",
-			"message": "Downloading the LeafEdit CIA..."
+			"file": "https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.1/gameyob_DSi.cia",
+			"output": "/gameyob_DSi.cia",
+			"message": "Downloading the GameYob (DSi) CIA..."
 		},
 		{
 			"type": "installCia",
-			"file": "/LeafEdit.cia",
-			"message": "Installing the LeafEdit CIA..."
+			"file": "/gameyob_DSi.cia",
+			"message": "Installing the GameYob (DSi) CIA..."
 		},
 		{
 			"type": "deleteFile",
-			"file": "/LeafEdit.cia",
+			"file": "/gameyob_DSi.cia",
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
-	"LeafEdit Release 3DSX": [
+	"mGBA Preview Release CIA": [
 		{
-			"type": "downloadRelease",
-			"repo": "Universal-Team/LeafEdit",
-			"file": "LeafEdit.3dsx",
-			"output": "/3ds/LeafEdit.3dsx",
-			"message": "Downloading the LeafEdit 3DSX..."
+			"type": "downloadFile",
+			"file": "https://tinydb.eiphax.tech/dl/111/latest/mgba.cia",
+			"output": "/mgba.cia",
+			"message": "Downloading the mGBA CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/mgba.cia",
+			"message": "Installing the mGBA CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/mgba.cia",
+			"message": "Deleting the downloaded CIA file..."
 		}
 	],
 	"LeafEdit Release CIA": [
@@ -105,29 +106,41 @@
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
-	"Project-Athena Nightly 3DSX": [
+	"Neopop Latest 3DSX": [
 		{
 			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/Project-Athena/Project-Athena.3dsx",
-			"output": "/3ds/Project-Athena.3dsx",
-			"message": "Downloading the Project-Athena 3DSX..."
-		}
-	],
-	"Project-Athena Nightly CIA": [
-		{
-			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/Project-Athena/Project-Athena.cia",
-			"output": "/Project-Athena.cia",
-			"message": "Downloading the Project-Athena CIA..."
+			"file": "https://github.com/nop90/Neopop-SDL/releases/download/v0.4/neopop_3DSX_v0.4.zip",
+			"output": "/3ds/",
+			"message": "Downloading the Neopop Zip..."
 		},
 		{
-			"type": "installCia",
-			"file": "/Project-Athena.cia",
-			"message": "Installing the Project-Athena CIA..."
+            "type": "extractFile",
+            "file": "/3ds/neopop_3DSX_v0.4.zip",
+            "input": "neopop_3DSX_v0.4/neopop/",
+            "output": "/3ds/",
+			"message": "Extracting Neopop..."
 		},
 		{
 			"type": "deleteFile",
-			"file": "/Project-Athena.cia",
+			"file": "/3ds/neopop_3DSX_v0.4.zip"
+		}
+		
+	],
+	"Neopop Latest CIA": [
+		{
+			"type": "downloadFile",
+			"file": "https://tinydb.eiphax.tech/dl/120/6715441/neopop_v0.4.cia",
+			"output": "/neopop_v0.4.cia",
+			"message": "Downloading the Neopop CIA..."
+		},
+		{
+			"type": "installCia",
+			"file": "/neopop_v0.4.cia",
+			"message": "Installing the Neopop CIA..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/neopop_v0.4.cia",
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
