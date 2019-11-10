@@ -144,29 +144,29 @@
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
-	"Universal-Manager Nightly 3DSX": [
+	"Picodrive Latest 3DSX": [
 		{
 			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Manager/Universal-Manager.3dsx",
-			"output": "/3ds/Universal-Manager.3dsx",
-			"message": "Downloading the Universal-Manager 3DSX..."
+			"file": "https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.2/picodrive_3ds.3dsx",
+			"output": "/3ds/picodrive_3ds.3dsx",
+			"message": "Downloading the latest Picodrive 3DSX..."
 		}
 	],
-	"Universal-Manager Nightly CIA": [
+	"Picodrive Latest CIA": [
 		{
 			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Manager/Universal-Manager.cia",
-			"output": "/Universal-Manager.cia",
-			"message": "Downloading the Universal-Manager CIA..."
+			"file": "https://tinydb.eiphax.tech/dl/134/latest/picodrive_3ds.cia",
+			"output": "/picodrive_3ds.cia",
+			"message": "Downloading the Picodrive CIA..."
 		},
 		{
 			"type": "installCia",
-			"file": "/Universal-Manager.cia",
-			"message": "Installing the Universal-Manager CIA..."
+			"file": "/picodrive_3ds.cia",
+			"message": "Installing the Picodrive CIA..."
 		},
 		{
 			"type": "deleteFile",
-			"file": "/Universal-Manager.cia",
+			"file": "/picodrive_3ds.cia",
 			"message": "Deleting the downloaded CIA file..."
 		}
 	],
