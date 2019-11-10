@@ -1,17 +1,17 @@
 {
 	"info": {
-		"title": "Emulators Megascript",
+		"title": "Emulator Megascript",
 		"author": "Glazed_Belmont",
 		"shortDesc": "Includes downloads for emulators.",
 		"description": "With this script, you can download and update\nthe following emulators: \n- GameYob (3DS)\n- GameYob (DSi)\n- mGBA\n- Neopop\n- PicoDrive\n- Snes9x\n- VirtuaNES\nScript by Glazed_Belmont",
-		"barColor": "#395472",
-		"bgBottomColor": "#262C4D",
-		"bgTopColor": "#60A8C0",
+		"barColor": "##000c31",
+		"bgBottomColor": "#000000",
+		"bgTopColor": "#000000",
 		"textColor": "#FFFFFF",
-		"selectedColor": "#78C0D8",
-		"unselectedColor": "#4D7684",
-		"version": 1,
-		"revision": 0
+		"selectedColor": "#00558b",
+		"unselectedColor": "#292b2c",
+		"version": 2,
+		"revision": 1
 	},
 	"Gameyob 3DS 3DSX": [
 		{
